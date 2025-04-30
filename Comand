@@ -1,0 +1,5 @@
+app.add_handler(CommandHandler("start", start))
+app.add_handler(CommandHandler("BuyUSDT", buy_usdt))
+app.add_handler(CommandHandler("SellUSDT", sell_usdt))
+app.add_handler(CommandHandler("Balance", balance))
+app.add_handler(CommandHandler("Help", help_command))
